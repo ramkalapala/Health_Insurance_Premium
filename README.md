@@ -1,2 +1,5 @@
 # Health_Insurance_Premium
 The initial notebook establishes a regression-based premium estimation pipeline using statistical validation and machine learning techniques such as Linear Regression, Decision Trees, and Random Forest models to predict insurance charges based on demographic features.
+It includes hypothesis testing, feature preprocessing, model tuning, and evaluation using MAE, RMSE, and R² metrics.
+Building upon this foundation, the framework enhances predictive performance through behavioral and biometric data fusion, integrating physiological indicators such as heart rate, blood pressure, BMI, and lifestyle activity metrics. The architecture employs Deep Neural Networks (DNNs), XGBoost ensemble models, and an attention-based feature fusion mechanism to capture nonlinear cross-interactions among risk variables.
+Furthermore, the enhanced framework is deployed on AWS cloud infrastructure, leveraging SageMaker for model training, EC2 for computational scalability, and S3 for secure data storage.
